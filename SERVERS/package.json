@@ -4,8 +4,8 @@
   "description": "",
   "main": "ross.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"node ross.js\" \"node rachel.js\" \"node joey.js\""
+    "start": "node ross.js",
+    "vercel-build": "prisma generate"
   },
   "keywords": [],
   "author": "",
